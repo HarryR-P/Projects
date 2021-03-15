@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.errorMessage{color: red;}
+</style>
+<script src="./validation2.js"></script>
+</head>
+
+<body>
+
+	<h1>Contact information</h1>
+	
+	<form id="contact info" action="">
+		<fieldset>
+			<p id="Email">
+				<label for="email">Email</label>
+				<input id="email" name="email" type="email"></input>
+			</p>
+			<p id="Phone">
+				<label for="phone">Phone</label>
+				<input id="phone" name="phone" type="tel"></input>
+			</p>
+			<p id="Address">
+				<label for="address">Address</label>
+				<input id="address" name="address" type="text"></input>
+			</p><br>
+			<input onclick="validate2()"  type="button" id="submit" name="submit" value="submit"></input>
+		</fieldset>
+	</form>
+</body>
+</html>
